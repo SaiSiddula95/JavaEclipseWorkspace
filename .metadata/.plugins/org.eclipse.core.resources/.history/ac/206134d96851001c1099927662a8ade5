@@ -1,0 +1,14 @@
+package Heap;
+
+public class MaxHeap {
+	private int[] heap;
+	private int size;
+	
+	public MaxHeap(int capacity) {
+		heap = new int[capacity];
+	}
+	
+	public boolean isFull() {
+		return size == heap.length;
+	}
+}

@@ -1,0 +1,64 @@
+package section8.arrays;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ArraysChallengeExercise {
+
+	static Scanner scan = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+
+		Integer[] list = makeArray(5);
+		printArray(list);
+		
+		//list = sortArray(list);
+		
+		
+	}
+	
+	public static Integer[] makeArray(int number){
+		Integer[] arr = new Integer[number];
+		
+		
+		for(int i=0; i<arr.length; i++) {
+			arr[i] = scan.nextInt();
+		}
+		
+		return arr;
+	}
+	
+	
+	public static void printArray(Integer[] list) {
+		for(Integer i: list) System.out.println(String.valueOf(i));
+	}
+	
+	
+	public static Integer[] sortArray(Integer[] list) {
+		Integer[] arr = list;
+		
+		
+		
+		for(int i=0; i<list.length; i++) {
+			
+		}
+		
+		
+		return arr;
+	}
+	
+	public static Integer[] sortArray2(List<Integer> list) {
+		Integer[] arr = null;
+		
+		
+//		
+//		for(int i=0; i<list.length; i++) {
+//			
+//		}
+		
+		
+		return arr;
+	}
+	
+}

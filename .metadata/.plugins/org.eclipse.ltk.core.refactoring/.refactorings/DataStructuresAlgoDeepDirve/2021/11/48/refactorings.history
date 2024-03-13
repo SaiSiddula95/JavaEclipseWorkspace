@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;SortAlgos.SElectionSortTest&apos; to &apos;SelectionSortTest&apos;&#x0D;&#x0A;- Original project: &apos;DataStructuresAlgoDeepDirve&apos;&#x0D;&#x0A;- Original element: &apos;SortAlgos.SElectionSortTest&apos;&#x0D;&#x0A;- Renamed element: &apos;SortAlgos.SelectionSortTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SElectionSortTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;SortAlgos{SElectionSortTest.java[SElectionSortTest" matchStrategy="1" name="SelectionSortTest" qualified="false" references="true" similarDeclarations="false" stamp="1638047098710" textual="false" version="1.0"/>
+</session>

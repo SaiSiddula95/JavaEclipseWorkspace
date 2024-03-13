@@ -1,0 +1,17 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.sql.ResultSet;
+
+public class DatabaseTest {
+	public static void main(String[] args) {
+		Connection con;
+		Statement stmt;
+		ResultSet rs;
+
+		con = ConnectionManager.getConnection();
+		stmt = con.createStatement();
+		rs = stmt.executeQuery(sql);
+	}
+}
